@@ -1,0 +1,10 @@
+print('===============================')
+print(' Program BMI CALCULATOR ')
+print('===============================')
+BMI_name= input('ชื่อคน : ')
+BMI_height = int(input('ความสูง(cm) : '))
+BMI_weight = int(input('น้ำหนัก(kg) : '))
+print('===============================')
+BMI_heightM = BMI_height / 100
+BMI_ans = BMI_weight / (BMI_heightM ** 2)
+print(f'BMI {BMI_ans:.2f} ')
